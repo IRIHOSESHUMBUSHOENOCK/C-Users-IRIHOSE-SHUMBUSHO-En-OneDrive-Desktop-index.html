@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5bf1b093d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#ABOUT">ABOUT </a></li>
+            <li><a href="#SERVICES">SERVICES</a></li>
+            <li><a href="#PORTOFOLIO">PORTOFOLIO</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>IRIHOSE SHUMBUSHO ENOCK Design</p>
+          <h1>
+            Hey I am  <span> IRIHOSE SHUMBUSHO ENOCK </span><br />
+            a Rwandan student
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-------------------ABOUT----------------->
+    <div id="ABOUT">
+      <div class="container">
+        <div class="row">
+          <div class="ABOUT-col-1">
+            <img src="Pictures/IMG_0853 (3)~2.jpg" />
+          </div>
+
+          <div class="ABOUT-col-2">
+            <h1 class="sub-title">ABOUT Me</h1>
+            <p>
+              MY NAME IS IRIHOSE SHUMBUSHO ENOCK, Student at university of rwanda,faculty of business information technology.
+              who believe in technology in every aspect of life that can contribute to boost up civil life.
+            </p>
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </div>
+              <div class="tab-links" onclick="opentab('experience')">
+                Experience
+              </div>
+              <div class="tab-links" onclick="opentab('education')">
+                Education
+              </div>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Design </span> <br />
+                  Website Design
+                </li>
+                <li>
+                  <span>Developer </span><br />
+                  website development
+                </li>
+                <li>
+                  <span>Maintainer</span> <br />
+                  Website maintainance
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2018 </span> <br />
+                  LEVEL 4 INTERNERSHIP
+                </li>
+                <li>
+                  <span>2019 </span><br />
+                  LEVEL 5 INTERNERSHIP
+                </li>
+                <li>
+                  <span>2020</span> <br />
+                  SELF COACHING STUDIES
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2007-2013 </span> <br />
+                  GS GATIZO
+                </li>
+                <li>
+                  <span>2014-2016 </span><br />
+                  GS SHYOGWE
+                </li>
+                <li>
+                  <span>2017-2019</span> <br />
+                  COLLEGE ACEJ KARAMA
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------SERVICES section----------------- -->
+
+    <div id="SERVICES">
+      <div class="container">
+        <h1 class="sub-title">SERVICES</h1>
+        <div class="SERVICES-list">
+          <div>
+            <h2>Rwanda developer</h2>
+            <p>
+              UNIVERSITY OF RWANDA IS THE HUB OF TECHNOLOGY FOR STUDENTS WHO NEEDS OR WANT TO IMPROVE THEIR QUALITY OF CODING AND SOFTWARE RUNNUP
+            </p>
+            <a href="">learn more</a>
+          </div>
+          <div>
+            <h2>Rwanda developer</h2>
+            <p>
+              UNIVERSITY OF RWANDA IS THE HUB OF TECHNOLOGY FOR STUDENTS WHO NEEDS OR WANT TO IMPROVE THEIR QUALITY OF CODING AND SOFTWARE RUNNUP
+            </p>
+            <a href="">learn more</a>
+          </div>
+          <div>
+            <h2>UR HUYE CAMPUS</h2>
+            <p>
+              UNIVERSITY OF RWANDA IS THE HUB OF TECHNOLOGY FOR STUDENTS WHO NEEDS OR WANT TO IMPROVE THEIR QUALITY OF CODING AND SOFTWARE RUNNUP
+            </p>
+            <a href="">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------PORTOFOLIO--------------------- -->
+
+    <div id="PORTOFOLIO">
+      <div class="container">
+        <h1 class="sub-title">Big data work observation</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Pictures/IMG_0853 (3)~2.jpg" />
+            <div class="layer">
+              <h3>IT programs</h3>
+              <p>
+                this picture shows that when the exprience increase also the salary increase
+                <a href="">kkkk</a>
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Pictures/IMG_0853 (3)~2.jpg" />
+            <div class="layer">
+              <h3>IT programs</h3>
+              <p>
+                this picture also shows us that when social media usage increase also marks of the students increase
+                <a href="">kkkk</a>
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Pictures/IMG_0853 (3)~2.jpg" />
+            <div class="layer">
+              <h3>IT programs</h3>
+              <p>
+                the last picture showa us that when stress of the student increase lead to the class marks to decrease
+                <a href="">kkkk</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <a href="" class="btn">see more</a>
+      </div>
+    </div>
+    <!-- -------------------CONTACT---------------------- -->
+    <div id="CONTACT">
+      <div class="container">
+        <div class="row">
+          <div class="CONTACT-left">
+            <h1 class="subtitle">CONTACT me</h1>
+            <p>irihoseshumbushoenock@gmail.com</p>
+            <p>Phone: 0781628615</p>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download cv</a>
+          </div>
+          <div class="CONTACT-right">
+            <form
+              method="POST"
+              action="https://script.google.com/macros/s/AKfycbzJMN4URWJq2uXkVh_iPNQeJMbSOsgtd2T94pxtkWmAPwTg832tGDiUACCgyMkauvDf/exec"
+            >
+              <input
+                type="text"
+                name="Name"
+                placeholder="enter your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="enter your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="enter your messsage"
+              ></textarea>
+              <button type="submit" name="submit" class="btn btn2">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var Sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        Sidemenu.style.right = "0px";
+      }
+      function closemenu() {
+        Sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
